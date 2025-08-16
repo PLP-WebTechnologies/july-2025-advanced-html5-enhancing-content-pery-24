@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><enhanced-form></enhanced-form></title>
+</head>
+<body>
+    <h1>TECH SYMPOSIUM</h1>
+    <h2>AGENDA OF THE EVENT</h2>
+    <ol>
+        <li>Opening Ceremony & Welcome Speech</li>
+        <li>Keynote Address by Guest Speaker</li>
+        <li>Panel Discussion on Women in Tech</li>
+        <li>Networking & Refreshments</li>
+        <li>Workshop: Building Your First Website</li>
+        <li>Student Project Presentations</li>
+        <li>Awards & Recognition</li>
+        <li>Closing Remarks</li>
+
+    </ol>
+    <h2>Requirements to Attend</h2>
+    <ul>
+        <li>University Student ID Card</li>
+        <li>Notebook & Pen</li>
+        <li>Laptops (for workshop)</li>
+        <li>Registration Confirmation Slip</li>
+        <li>Positive Energy & Participation</li>
+    </ul>
+    <h2>Event Timetable</h2>
+    
+    <table border="1">
+        <tr>
+            <th>Time</th>
+            <th>Session</th>
+            <th>Speaker</th>
+        </tr>
+        <tr>
+            <td>9:00 AM-11:00AM</td>
+            <td>Opening Ceremony</td>
+            <td>Prof. John Doe</td>
+        </tr>
+        <tr>
+            <td>11:00AM-2:00pm</td>
+            <td>Keynote Speech</td>
+            <td>CEO James Otien</td>
+        </tr>
+        <tr>
+            <td>2:00pm-4:00pm</td>
+            <td>Panel Discussion</td>
+            <td>Mary Wanjiku</td>
+        </tr>
+    </table>
+    <h2>Registration Fees</h2>
+    <table border="1">
+        <tr>
+            <th>Category</th>
+            <th>Fee (in KES)</th>
+            </tr>
+            <tr>
+                <td>Students</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>Professionals</td>
+                <td>1500</td>
+            </tr>
+            <tr>
+                <td>VIP</td>
+                <td>3000</td>
+                </tr>
+
+                </table>
+                <video width="320" height="240" controls>
+                    <source src="https://www.pexels.com/download/video/33279610/">
+                    Your browser does not support the video tag.
+
+                </video>
+
+                 <form action="/action._page.php"   target="_blank">
+                    <label for="fnamee">First Name: </label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last Name: </label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="gender">Gender</label><br>
+                    <input type="radio" value="gender" name="gender" required>MALE<br>
+                    <input type="radio" name="gender" value="female" required>FEMALE<br>
+                    <input type="radio" name="gender" value="pther" required>OTHER<br>
+
+                    <h2>Workshops of Interest</h2>
+                    <label for="ai">Artificial Intelligence & Machine Learning</label>
+                    <input type="checkbox" id="ai" name="workshop" value="AI"><br>
+                    <label for="cyber">Cybersecurity and Ethical Hacking</label>
+                    <input type="checkbox" id="cyber" name="workshop" value="Cybersecurity"><br>
+                    <label for="web">Web & Mobile Development</label>
+                    <input type="checkbox" id="web" name="Workshop" value="Web Development"><br>
+                    <input type="submit" value="submit"><br>
+
+                    <label for="prefence">Session Prefence</label>
+                    <select name="preference" id="prefence" size="3" multiple min="0" max="250>
+                        <option value="morning">Morning Session</option>
+                        <option value="afternoon">Afternoon Session</option>
+                        <option value="full-Time">Full-Time Day Pass</option>
+                    </select><br>
+                      <textarea name="comments" rows="5" cols="40" placeholder="Enter your comments here..."></textarea><br>
+                      <label for="email">Enter your Email: </label>
+                      <input type="email" id="email" name="email"><br>
+                      <label for="phone">Enter your phone Number: </label><br>
+                      <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+
+                 </form>
+                
+                
+            </body>
+</html>
